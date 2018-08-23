@@ -23,16 +23,16 @@ function dec(n){
 }
 
 function makeInt(n){
-  parseInt(n)
-
+  let s=parseInt(n)
+  return s;
 }
 
 function makeInt(n){
-  parseInt(n, 10)
-
+  let n= parseInt(n, 10)
+  return n;
 }
 
 function  preserveDecimal(n){
-  parseFloat(n)
-
+  let p=parseFloat(n)
+  return p;
 }
