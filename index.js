@@ -28,8 +28,8 @@ function makeInt(n){
 }
 
 function makeInt(n){
-  let n= parseInt(n, 10)
-  return n;
+  let q= parseInt(n, 10)
+  return q;
 }
 
 function  preserveDecimal(n){
